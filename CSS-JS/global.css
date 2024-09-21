@@ -1,0 +1,36 @@
+body {
+
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.semibold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+  
+  /* SemiBold 600 Italic */
+  .semibold-italic {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .gradient-background {
+    background: linear-gradient(90deg,#aafbfb,#daffff,#ffffff,#d9ffff,#baffff);
+    background-size: 300% 300%;
+    animation: gradient-animation 35s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+

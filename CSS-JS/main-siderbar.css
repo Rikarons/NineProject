@@ -1,0 +1,45 @@
+#second-main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+#side-bar-wrapper {
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#post-main-wrapper {
+   width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#grid-post-wrapper {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#side-bar-wrapper {
+    width: 30%;
+}
+
+#grid-post-wrapper .col {
+    padding-bottom: 30px;
+    
+}
+
+.card-post {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;         /* Let the iframe take up the full width of the parent */
+    max-width: 500px; 
+}
